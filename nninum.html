@@ -1,30 +1,10 @@
 <html>
 
 <head>
-<title>nnimun v4.0</title>
+<title>nnimun v4.2</title>
   <SCRIPT>
   function toggleCaltrans() {
     var x = document.getElementById('caltransMap');
-    if (x.style.display == 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-  }
-  </SCRIPT>
-  <SCRIPT>
-  function toggleSBPD() {
-    var x = document.getElementById('sbpdMap');
-    if (x.style.display == 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-  }
-  </SCRIPT>
-  <SCRIPT>
-  function toggleSMCO() {
-    var x = document.getElementById('smcoMap');
     if (x.style.display == 'none') {
         x.style.display = 'block';
     } else {
@@ -36,7 +16,7 @@
 
 <body>
   <a id="head"></a>
-    <h2>nninum v4.0</h2>
+    <h2>nninum v4.2</h2>
     <nav>
       <a href="#localTwitter">Local Twitter</a> <br>
       <a href="#caltransCam">CalTrans CCTV Cameras</a> <br>
@@ -93,10 +73,21 @@
     <h4>Broadcasts</h4>
       <a href="https://www.broadcastify.com/listen/ctid/223" target="_blank">All San Mateo Feeds</a> <br>
       <blockquote>
-        <a href="https://www.broadcastify.com/listen/feed/2765" target="_blank">  SF CHP feed</a> <br>
-        <a href="https://www.broadcastify.com/listen/feed/753" target="_blank"> San Mateo LEOs</a> <br>
+        <a href="https://www.broadcastify.com/listen/feed/2765" target="_blank">SF CHP feed</a> <br>
+          <audio controls muted autoplay>
+            <source src="https://broadcastify.cdnstream1.com/2765" type=audio/mpeg>
+          </audio><br>
+        <a href="https://www.broadcastify.com/listen/feed/753" target="_blank">San Mateo LEOs</a> <br>
+          <audio controls muted autoplay>
+            <source src="https://broadcastify.cdnstream1.com/753" type=audio/mpeg>
+          </audio><br>
+        <p>
+          <i style="font-size:9">
+            allow feed to be muted for 15-30secs; streaming service plays an ad during the beginning
+          </i>
+        </p>
       </blockquote>
-      <a href="https://rammb-slider.cira.colostate.edu/?sat=goes-17&z=5&im=6&ts=1&st=0&et=0&speed=130&motion=loop&map=1&lat=0&opacity%5B0%5D=1&hidden%5B0%5D=0&pause=0&slider=-1&hide_controls=0&mouse_draw=0&follow_feature=0&follow_hide=0&s=rammb-slider&sec=full_disk&p%5B0%5D=geocolor&x=13171&y=3464" target="_blank">
+      <a href="https://rammb-slider.cira.colostate.edu/?sat=goes-17&z=4&im=12&ts=1&st=0&et=0&speed=130&motion=loop&map=1&lat=0&opacity%5B0%5D=1&hidden%5B0%5D=0&pause=0&slider=-1&hide_controls=0&mouse_draw=0&follow_feature=0&follow_hide=0&s=rammb-slider&sec=conus&p%5B0%5D=geocolor&x=7276.5&y=3778.5" target="_blank">
       GOES 17 Satellite Feed</a> <br>
 
 <hr>
