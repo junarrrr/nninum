@@ -2,58 +2,41 @@
 
 <head>
 <title>nnimun v4.2</title>
-  <SCRIPT>
-  function toggleCaltrans() {
-    var x = document.getElementById('caltransMap');
-    if (x.style.display == 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-  }
-  </SCRIPT>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <a id="head"></a>
-    <h2>nninum v4.2</h2>
-    <nav>
+<h1>ninnum 4.2</h1>
+<hr>
+  <div class="top-header">
+    <a id="#head"></a>
+    <a id="localTwitter"></a>
+
+    <div class="column left">
       <a href="#localTwitter">Local Twitter</a> <br>
       <a href="#caltransCam">CalTrans CCTV Cameras</a> <br>
       <a href="#crimeMap">Crime Maps</a> <br>
-      <a href="#radioBroadcast">Broadcasts</a> <br>
-    </nav>
+      <a href="#radioBroadcast">Broadcasts</a>
+    </div>
 
-
-
-<hr>
-    <a id="localTwitter"></a>
-      <h4>Local Twitter</h4>
-        <center>
-          <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" data-theme="dark" href="https://twitter.com/SanBrunoPolice?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" data-theme="dark" href="https://twitter.com/SMCSheriff?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" data-theme="dark" href="https://twitter.com/sanmateoco?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a class="twitter-timeline" data-width="300" data-height="400" data-dnt="true" data-theme="dark" href="https://twitter.com/kron4news?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </center>
-
-
+    <div class="column right">
+        <a class="twitter-timeline" data-width="500" data-height="500" data-dnt="true" data-theme="light" href="https://twitter.com/joonpoops/lists/ayo-14366?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
 
 <hr>
   <a id="caltransCam"></a>
     <h4>CalTrans CCTV Cameras</h4>
     <center>
-      <iframe allowfullscreen="true" name="hqiframe" src="http://cwwp2.dot.ca.gov/vm/loc/d4/tvb83i280n280hickeybdnblooponramp.htm" style="height:400px; border:0px; align:left"></iframe>
-      <iframe allowfullscreen="true" name="hqiframe" src="http://cwwp2.dot.ca.gov/vm/loc/d4/tv407us101justnorthofi380.htm" style="height:400px; border:0px; align:right"></iframe>
-      <iframe allowfullscreen="true" name="hqiframe" src="http://cwwp2.dot.ca.gov/vm/loc/d4/tv414us101n101atbroadway.htm" style="height:400px; border:0px; align:right"></iframe>
-    <br>
-    <button onclick="toggleCaltrans()">toggle map</button>
-      <DIV ID="caltransMap" STYLE="display:none">
-        go into fullscreen<br>
-        <iframe allowfullscreen="true" name="hqiframe" src="http://www.dot.ca.gov/video/" style="height:250px; width:50%; border:0px;"></iframe>
-      </DIV>
+      <iframe allowfullscreen="true" name="hqiframe" src="https://cwwp2.dot.ca.gov/vm/loc/d4/tvb83i280n280hickeybdnblooponramp.htm" style="height:400px; border:0px; align:left"></iframe>
+      <iframe allowfullscreen="true" name="hqiframe" src="https://cwwp2.dot.ca.gov/vm/loc/d4/tv407us101justnorthofi380.htm" style="height:400px; border:0px; align:right"></iframe>
+      <iframe allowfullscreen="true" name="hqiframe" src="https://cwwp2.dot.ca.gov/vm/loc/d4/tv414us101n101atbroadway.htm" style="height:400px; border:0px; align:right"></iframe>
     </center>
-
-
+    <p>
+      <i style="font-size:9">
+         <a href="http://www.dot.ca.gov/video/">map of available CalTrans cameras</a>
+      </i>
+    </p>
 
 <hr>
   <a id="crimeMap">
@@ -65,8 +48,6 @@
         observed at least a 20min delay, probably real-time: <a href="https://crimegraphics.com/">crimegraphics</a>;<a href="https://snb.crimegraphics.com/2013/default.aspx">SBPD</a>;<a href="https://smso.crimegraphics.com/2013/default.aspx">SMCO</a>
       </i>
     </p>
-
-
 
 <hr>
   <a id ="radioBroadcast"></a>
@@ -93,14 +74,6 @@
       GOES 16 Satellite Feed</a> <br>
 
 <hr>
-  <center>
-    <nav>
-      <a href="#caltransCam">CalTrans CCTV Cameras</a> -
-      <a href="#crimeMap">Crime Maps</a> -
-      <a href="#radioBroadcast">Broadcasts</a> -
-      <a href="#localTwitter">Local Twitter</a> <br>
-    </nav>
-  </center>
     <a href="#head">Back to Top</a>
 </body>
 </html>
