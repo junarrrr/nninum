@@ -27,3 +27,14 @@
   display: table;
   clear: both;
 }
+
+h1 {
+  font-family: Futura, sans-serif;
+}
+body {
+  font-family: Futura, sans-serif;
+}
+
+a { 
+  text-decoration: none;
+}
