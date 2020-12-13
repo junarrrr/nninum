@@ -31,4 +31,6 @@ Live radio feed across Bay Area & incident reporting (on Broadcastify [site](htt
 ### NOAA Satellites
 Feeds provided by Colorado State.
 * GOES17
-* GOES16
+* GOES16  
+  
+CA favicon from [Clipart Library](http://clipart-library.com/clip-art/state-of-california-silhouette-2.htm)
