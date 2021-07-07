@@ -29,12 +29,12 @@
 }
 
 h1 {
-  font-family: Futura, sans-serif;
+  font-family: Arial, sans-serif;
 }
 body {
-  font-family: Futura, sans-serif;
+  font-family: Monaco, monospace;
 }
 
-a { 
+a {
   text-decoration: none;
 }
